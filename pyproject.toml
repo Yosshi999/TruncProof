@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "truncproof"
+version = "1.0.0"
+authors = [
+  { name="Yosshi999", email="Yosshi999@users.noreply.github.com" }
+]
+description = "A Guardrail for LLM-based JSON Generation under Token-Length Constraints"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "lark == 1.2.2",
+  "interegular == 0.3.3",
+  "transformers == 4.51.3",
+  "torch",
+  "scipy",
+]
+
