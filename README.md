@@ -49,8 +49,6 @@ $ docker run -it --rm --gpus all -v $PWD/ijcnn26:/workspace truncproof bash
 
 Inside the container:
 
-```
-```
 * Access to the models `meta-llama/Llama-2-7b-chat-hf` and `google/gemma-2-2b-it` is restricted. Run `huggingface-cli login` first.
 
 ## Experiments
