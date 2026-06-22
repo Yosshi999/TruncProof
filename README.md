@@ -1,4 +1,8 @@
 # TruncProof
+A Guardrail for LLM-based JSON Generation under Token-Length Constraints (IJCNN 2026)
+
+- arXiv: https://arxiv.org/abs/2605.13076
+- poster: [IJCNN2026 Poster](./IJCNN2026_poster.pdf)
 
 ## Sample
 ```
